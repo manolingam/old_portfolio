@@ -1,0 +1,42 @@
+#current_page {
+    background-color: crimson;
+}
+
+#current_page > a {
+    color: white;
+}
+
+#current_page:hover {
+    background-color: white;
+}
+
+#current_page:hover > a {
+    color: black;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    img {
+        height: 350px;
+        width: 450px;
+    }
+    div {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    img {
+        height: 250px;
+        width: 350px;
+    }
+    div {
+        margin-top: 40px;
+    }
+}
