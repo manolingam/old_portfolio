@@ -53,4 +53,8 @@ body {
     .cover {
         margin-bottom: 10px;
     }
+    img {
+        height: 200px;
+        width: 300px;
+    }
 }
