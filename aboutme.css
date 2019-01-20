@@ -76,7 +76,7 @@ a > img:hover {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #name {
         font-size: 1.1em;
     }
@@ -88,6 +88,6 @@ a > img:hover {
         height: 95px;
     }
     .about_me {
-        margin: 50px 50px 50px 50px;
+        margin: 50px 35px 50px 35px;
     }
 }
