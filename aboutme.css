@@ -87,4 +87,7 @@ a > img:hover {
         width: 75px;
         height: 95px;
     }
+    .about_me {
+        margin: 50px 50px 50px 50px;
+    }
 }
