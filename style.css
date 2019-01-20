@@ -2,30 +2,30 @@ body {
     font-family: 'Bungee', cursive;
 }
 
-ul {
+.ul {
     display: flex;
     justify-content: end;
     list-style: none;
     margin-top: 10px;
 }
 
-li {
+.li {
     padding: 5px 20px 5px 20px;
     border: 2px solid black;
     border-radius: 10px;
     margin-right: 8px;
 }
 
-a {
+.li > a {
     text-decoration: none;
     color: black;
 }
 
-li:hover {
+.li:hover {
     background-color: crimson;
 }
 
-li:hover > a {
+.li:hover > a {
     color: white;
 }
 
