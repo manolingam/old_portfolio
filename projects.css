@@ -6,7 +6,7 @@
     margin: 10px;
     border: 2px solid black;
     border-radius: 10px;
-    margin: 100px 300px 30px 300px;
+    margin: 70px 300px 30px 300px;
 }
 
 .main-container p {
@@ -15,6 +15,7 @@
     border: 2px solid black;
     background-color: blueviolet;
     border-radius: 10px;
+    padding: 5px 0px 5px 0px;
 }
 
 .container_b > a, .container_a > a {
