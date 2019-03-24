@@ -52,6 +52,32 @@ span {
     color: black;
 }
 
+.voice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 70px 300px 30px 300px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.alexa > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.google > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
 #copyright {
     margin-top: 30px;
     text-align: center;
@@ -62,6 +88,17 @@ span {
 @media only screen and (max-width: 1300px) {
     .main-container {
         margin: 80px 130px 30px 130px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .voice {
+        margin: 50px 35px 50px 35px;
+        font-size: 15px;
+    }
+    .voice > img {
+        height: 50px;
+        width: auto;
     }
 }
 
@@ -80,5 +117,13 @@ span {
     }
     .container_b > a:hover, .container_a > a:hover {
         font-size: 13px;
+    }
+    .voice {
+        margin: 50px 35px 50px 35px;
+        font-size: 10px;
+    }
+    .voice > img {
+        height: 40px;
+        width: auto;
     }
 }
