@@ -34,7 +34,7 @@ body {
     text-align: center;
     color: blueviolet;
     font-size: 1.7em;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .typewrite {
@@ -45,8 +45,41 @@ body {
 .cover {
     display: flex;
     justify-content: center;
-    margin-top: 70px;   
+    margin-top: 30px;   
 }
+
+#skills {
+    margin-top: 80px;
+    font-size: 15px;
+}
+
+* {box-sizing:border-box}
+
+h3 {
+    text-align: center;
+}
+
+.skillBox {
+  width: 100%; /* Full width */
+  height: 25px;
+}
+
+.skills {
+  padding-right: 20px;
+  height: 20px;
+  text-align: right; /* Right-align text */
+  color: white; /* White text color */
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 90%; background-color: #f44336;} /* Red */
+.react {width: 60%; background-color: #808080;} /* Dark Grey */
+.python {width: 70%; background-color: #0e4718;}
+.flutter {width: 50%; background-color: #b9a808;}
+.node {width: 80%; background-color: #028085;}
+.express {width: 70%; background-color: #021a85;}
 
 @media only screen and (max-width: 700px) {
     .li {
@@ -55,9 +88,11 @@ body {
         margin-right: 4px;
     }
     #name, .typewrite {
+        margin-top: 50px;
         font-size: 0.8em;
     }
     .cover {
+        margin-top: 70px;
         margin-bottom: 10px;
     }
     img {
