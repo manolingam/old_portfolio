@@ -20,9 +20,14 @@
 
 .container_b > a, .container_a > a {
     font-family: 'Aleo', serif;
-    color: blueviolet;
+    color: rgb(103, 156, 23);
     text-decoration: none;
     font-weight: bold;
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 5px;
 }
 
 span {
@@ -31,10 +36,34 @@ span {
     text-decoration: none;
 }
 
-.container_b > a:hover, .container_a > a:hover {
+a > img {
+    height: 30px;
+    width: auto;
+    animation: blink normal 2s infinite ease-in-out;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.f4 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/* .container_b > a:hover, .container_a > a:hover {
     color: crimson;
     font-size: 1.3em;
-}
+} */
 
 #current_page {
     background-color: crimson;
@@ -124,6 +153,10 @@ span {
     }
     .voice > img {
         height: 40px;
+        width: auto;
+    }
+    a > img {
+        height: 15px;
         width: auto;
     }
 }
