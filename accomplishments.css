@@ -21,6 +21,13 @@ div {
     align-items: center;
 }
 
+#copyright {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family:  'Courier New', Courier, monospace;
+}
+
 @media only screen and (max-width: 1300px) {
     img {
         height: 350px;

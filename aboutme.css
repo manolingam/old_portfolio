@@ -83,6 +83,13 @@ a > img:hover {
     font-size: 1.2em;
 }
 
+#copyright {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family:  'Courier New', Courier, monospace;
+}
+
 @media only screen and (max-width: 1300px) {
     .about_me {
         margin: 80px 130px 30px 130px;
