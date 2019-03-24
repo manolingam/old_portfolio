@@ -6,7 +6,7 @@
     margin: 10px;
     border: 2px solid black;
     border-radius: 10px;
-    margin: 70px 300px 30px 300px;
+    margin: 40px 300px 30px 300px;
 }
 
 .main-container p {
@@ -133,7 +133,7 @@ a > img {
 
 @media only screen and (max-width: 700px) {
     .main-container {
-        margin: 50px 35px 50px 35px;
+        margin: 40px 35px 30px 35px;
     }
     .main-container a{
         font-size: 10px;
@@ -148,7 +148,7 @@ a > img {
         font-size: 13px;
     }
     .voice {
-        margin: 50px 35px 50px 35px;
+        margin: 30px 35px 50px 35px;
         font-size: 10px;
     }
     #alexa, #google {
@@ -158,5 +158,8 @@ a > img {
     a > img {
         height: 15px;
         width: auto;
+    }
+    .title {
+        font-size: 15px;
     }
 }
