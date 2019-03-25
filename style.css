@@ -73,14 +73,14 @@ h3 {
 }
 
 .html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 90%; background-color: #f44336;} /* Red */
-.react {width: 60%; background-color: #808080;} /* Dark Grey */
-.python {width: 70%; background-color: #0e4718;}
-.solidity {width: 50%; background-color: #700570;}
-.flutter {width: 50%; background-color: #b9a808;}
-.node {width: 80%; background-color: #028085;}
-.express {width: 70%; background-color: #021a85;}
+.css {width: 80%; background-color: #2196F3; animation-delay: 1s;} /* Blue */
+.js {width: 90%; background-color: #f44336; animation-delay: 2s;} /* Red */
+.python {width: 70%; background-color: #0e4718; animation-delay: 3s}
+.solidity {width: 50%; background-color: #700570; animation-delay: 4s;}
+.react {width: 60%; background-color: #808080; animation-delay: 5s;}
+.flutter {width: 50%; background-color: #b9a808; animation-delay: 6s;}
+.node {width: 80%; background-color: #028085; animation-delay: 7s;}
+.express {width: 70%; background-color: #021a85; animation-delay: 8s;}
 
 #copyright {
     margin-top: 30px;
