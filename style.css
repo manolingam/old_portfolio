@@ -58,8 +58,8 @@ h3 {
 }
 
 #live {
-    height: 25px;
-    width: auto;
+    height: 20px;
+    width: 30px;
     animation: blink normal 2s infinite ease-in-out;
     font-weight: bold;
     font-style: italic;
@@ -236,7 +236,7 @@ a > img:hover {
 }
 
 @media only screen and (max-width: 700px) {
-    a > img {
+    a > img, #live {
         height: 15px;
         width: auto;
     }
