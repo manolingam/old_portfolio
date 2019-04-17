@@ -8,19 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Manolingam</title>
 </head>
 <body>
-    <nav>
-        <ul class="ul">
-            <li class="li"><a href="aboutme.html">About Me</a></li>
-            <li class="li"><a href="projects.html">Projects</a></li>
-            <li class="li"><a href="accomplishments.html">Accomplishments</a></li>
-        </ul>
-    </nav>
-    <p id="name">
+    <p id="top_name">
         <div class="typewrite" data-period="2000" data-type='[ "Hi, I am Manolingam.", "I love to Code.", "Navigate to know more :)"]'>
             <span class="wrap"></span>
         </div>
@@ -28,49 +22,104 @@
     <div class="cover">
         <img src="resources/cover.gif" alt="programmer">
     </div>
-    <p class="tc f3 green">--Experience--</p>
-    <div id="skills">
-        <img src="resources/html.png" alt="HTML5">
-        <img src="resources/css.png" alt="CSS3">
-        <img src="resources/js.png" alt="JavaScript">
-        <img src="resources/python.png" alt="Python">
-        <img src="resources/solidity.png" alt="Solidity">
-        <img src="resources/react.png" alt="React">
-        <img src="resources/node.png" alt="Node">
-        <img src="resources/flutter.png" alt="Flutter">
-        <img src="resources/git.png" alt="Git">
-        <img src="resources/npm.png" alt="NPM">
-        <!-- <h3>Language Level</h3>
-        <div class="skillBox">
-            <div class="skills html animated slideInLeft slow">HTML</div>
+    
+    <div>
+        <div class="container">
+            <div class="about_me">
+                <!-- <div class="images">
+                    <img id="profile_pic" src="resources/profile.jpg" alt="profile_pic">
+                </div> -->
+                <p id="heading" class="dark-green">ABOUT ME</p>
+                <div class="social">
+                <a href="https://stackbyte.wordpress.com/"><img src="resources/wordpress.png" alt="wordpress"></a>
+                <a href="https://www.linkedin.com/in/saimano1996/"><img src="resources/linkedin.png" alt="linkedin"></a> 
+                <a href="https://twitter.com/saimano1996"><img src="resources/twitter.png" alt="twitter"></a>
+                <a href="https://github.com/manolingam/"><img src="resources/github.png" alt="github"></a>
+                <a href="mailto:manolingam1996@gmail.com"><img src="resources/mail.png" alt="mail"></a>
+                <a href="https://medium.com/@manolingam1996"><img src="resources/medium.png" alt="medium"></a>
+                </div>
+                <p id="bio">A self-taught programmer who is passionate in learning new industry related concepts in the field of computer science that actually matters in the application of real world problems. He is good at developing
+                    front-end web applications, blockchain applications & voice apps. Ethical hacking, Android development, data analysis are some of his hobbies. Apart from academics, he loves doing workout & listening to songs. Currently learning back-end development. Upskilling himself 24/7!
+                </p>
+            </div>
         </div>
-        <div class="skillBox">
-            <div class="skills css animated slideInLeft slow">CSS</div>
-        </div>
-        <div class="skillBox">
-            <div class="skills js animated slideInLeft slow">JavaScript</div>
-        </div>
-        <div class="skillBox">
-            <div class="skills python animated slideInLeft slow">Python</div>
-        </div>
-        <div class="skillBox">
-            <div class="skills solidity animated slideInLeft slow">Solidity</div>
+        <p class="tc f4 light-purple">My Digital Badges</p>
+        <div class="badges">
+            <img id="badge" src="resources/badge.jpg" alt="badge">
+            <img id='blogger' src="resources/rookie_blogger.png" alt="rookie blogger">
         </div>
     </div>
-    <div>
-        <h3>Framework Level</h3>
-        <div class="skillBox">
-            <div class="skills react animated slideInLeft slow">React</div>
+    <div class="project-block">
+        <p class="tc dark-green" id="heading">Projects</p>
+        <p class="tc pt3 f4">Quick Report at <a href="https://sourcerer.io/manolingam" class="red">sourcerer.io/manolingam</a></p>
+        <div class="menu">
+                <div class=" item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/where_is_ip.jpg" alt="where_is_ip">
+                    <p class="f3 light-purple">WhereIsIP</p>
+                    <p id="desc">Made using React & RESTful API that fetches geographical info about an IP address.</p>
+                    <a href="https://github.com/manolingam/whereisip"><img src="resources/github.png" alt="github"></a>
+                    <a href="https://whereisip.herokuapp.com/"><img id="live" src="resources/live.png" alt="live"></a>
+                </div>
+                <div class=" item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/ethereum.png" alt="ethereum_star_notary">
+                    <p class="f3 light-purple">Ethereum Star Notary</p>
+                    <p id="desc">An Ethereum blockchain based star notary service.</p>
+                    <a href="https://github.com/manolingam/EthereumStarNotary"><img src="resources/github.png" alt="github"></a>
+                </div>
+                <div class=" item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/gradient.png" alt="css_gradient_generator">
+                    <p class="f3 light-purple">CSS Gradient generator</p>
+                    <p id="desc">Customized CSS gradient background generator.</p>
+                    <a href="https://github.com/manolingam/background_generator"><img src="resources/github.png" alt="github"></a>
+                    <a href="https://manolingam.github.io/background_generator/"><img id="live" src="resources/live.png" alt="live"></a>
+                </div>
+                <div class="item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/data_analysis.jpg" alt="data_analysis">
+                    <p class="f3 light-purple">Data anlaysis</p>
+                    <p id="desc">Data analysis on a movie dataset for gaining insights about it.</p>
+                    <a href="https://github.com/manolingam/Dataset_Investigation"><img src="resources/github.png" alt="github"></a>
+                </div>
+                <div class="item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/web_template.png" alt="web_template">
+                    <p class="f3 light-purple">Web template</p>
+                    <p id="desc">Web template made for an Online Juice Shop that can be edited and resued.</p>
+                    <a href="https://github.com/manolingam/lcoJuiceShop"><img src="resources/github.png" alt="github"></a>
+                    <a href="https://manolingam.github.io/WebTemplate/"><img id="live" src="resources/live.png" alt="live"></a>
+                </div>
+                <div class="item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/rest_eyes.jpg" alt="rest_eyes">
+                    <p class="f3 light-purple">RestEyes</p>
+                    <p id="desc">A python program to automate standby mode in time intervals for windows users to break continued system work.</p>
+                    <a href="https://github.com/manolingam/rest_eyes"><img src="resources/github.png" alt="github"></a>
+                </div>
+                <div class="item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/alexa.png" alt="alexa">
+                    <p class="f3 light-purple">Quake Report</p>
+                    <p id="desc">Responds with real-time earthquake updates around the world.</p>
+                    <a href="https://www.amazon.in/Manolingam-Quake-Report/dp/B07PKBX9Q1/"><img id="live" src="resources/live.png" alt="live"></a>
+                </div>
+                <div class="item tc dib ma2 pa3 br3 grow bw2 shadow-5">
+                    <img id="project" src="resources/google.png" alt="google_action">
+                    <p class="f3 light-purple">Surviving Mars Wiki</p>
+                    <p id="desc">Game specific action that responds with construction cost of building in surviving mars.</p>
+                    <a href="https://assistant.google.com/services/a/uid/000000c1f5ea20b8?source=web"><img id="live" src="resources/live.png" alt="live"></a>
+                </div>
+            </div>
         </div>
-        <div class="skillBox">
-            <div class="skills flutter animated slideInLeft slow">Flutter</div>
+    <div class="experience">
+        <p class="tc dark-green" id="heading">--Experience--</p>
+        <div id="skills">
+            <img src="resources/html.png" alt="HTML5">
+            <img src="resources/css.png" alt="CSS3">
+            <img src="resources/js.png" alt="JavaScript">
+            <img src="resources/python.png" alt="Python">
+            <img src="resources/solidity.png" alt="Solidity">
+            <img src="resources/react.png" alt="React">
+            <img src="resources/node.png" alt="Node">
+            <img src="resources/flutter.png" alt="Flutter">
+            <img src="resources/git.png" alt="Git">
+            <img src="resources/npm.png" alt="NPM">
         </div>
-        <div class="skillBox">
-            <div class="skills node animated slideInLeft slow">Node</div>
-        </div>
-        <div class="skillBox">
-            <div class="skills express animated slideInLeft slow">Express</div>
-        </div> -->
     </div>
     <strong><p id='copyright'>Copyright &copy; Manolingam 2019</p></strong>
 </body>
